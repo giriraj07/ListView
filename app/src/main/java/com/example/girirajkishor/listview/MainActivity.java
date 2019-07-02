@@ -1,9 +1,7 @@
 package com.example.girirajkishor.listview;
-
-import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+
 import android.view.LayoutInflater;
 import android.widget.ListView;
 
@@ -17,13 +15,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-//        getBaseContext();
-//
-//
-//        LayoutInflater li = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
-//
-//
         LayoutInflater layoutInflater = LayoutInflater.from(this);
 
         contacts.add(new Contact("Pankaj", "Kumail", "1234567890"));
