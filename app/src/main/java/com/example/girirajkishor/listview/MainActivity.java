@@ -1,6 +1,7 @@
 package com.example.girirajkishor.listview;
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -24,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         contacts.add(new Contact("Jashpreet", "Abhishek", "1234567890"));
         contacts.add(new Contact("Bhumika", "Munir", "1234567890"));
         contacts.add(new Contact("Ravi", "Lavanya", "1234567890"));
-        contacts.add(new Contact("Yash", "Harshit", "1234567890"));
 
         ListView listView = findViewById(R.id.listView);
 
